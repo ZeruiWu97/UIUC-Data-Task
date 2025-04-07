@@ -1,5 +1,5 @@
 ### Overview:
-- This project uses Stata to simulate survey data to evaluate the treatment effects of two different advertisement campaigns ("Reason" and "Emotions") on COVID-19 vaccination uptake. 
+- This project uses Stata to simulate survey data and to evaluate the treatment effects of two different advertisement campaigns ("Reason" and "Emotions") on COVID-19 vaccination uptake. 
 
 - The simulation process involves creating baseline demographics and vaccination status, randomizing treatment assignments, simulating endline vaccination outcomes. Finally, the project conducts statistical analysis to assess the treatment effects.
 
