@@ -30,7 +30,7 @@
 
 
 ### Data Descriptions:
-# Baseline Survey Data: Stored at `raw_data/survey_data_baseline.dta`.
+**Baseline Survey Data**: Stored at `raw_data/survey_data_baseline.dta`.
 - 5,000 individuals are simulated.
 - Variables include:
   `id`: Unique identifier
@@ -40,11 +40,11 @@
   `edu`: Education level derived from uniform distribution: (1) 10% Less than High School (2) 30% High School (3) 20% Some College (4) 40% College or higher.
   `college`: Binary indicator for College+. 
 
-# Randomization Data: Store at `raw_data/randomization_data.dta`.
+**Randomization Data**: Store at `raw_data/randomization_data.dta`.
 - 5,000 individuals are simulated.
 - `Treatment`: Treatment assignment is divided evenly into three groups: (1) Reason Ad, (2) Emotions Ad, and (3) Control.
 
-# Endline Survey Data: Store at `raw_data/survey_data_endline.dta`.
+**Endline Survey Data**: Store at `raw_data/survey_data_endline.dta`.
 - A random sample of 4,500 individuals is selected to simulate attrition.
 - `vac_takeup1`: Endline vaccination status is generated based on: (1) If vaccinated at baseline: remains vaccinated;  (2) If not, probability of endline vaccination depends on treatment group: Reason: 55% of vaccination, Emotions: 70% of vaccination, and Control: 30% of vaccination.
 
@@ -57,10 +57,10 @@
 
 
 ### Analysis:
-# Balance Check
+**Balance Check**
 - (Lines 204–213) One-way ANOVA and Chi-squared tests confirm that baseline characteristics (age, gender, college education, and vaccination status) are well balanced across the three treatment groups.
 
-# Treatment Effects
+**Treatment Effects**
 (1). (Lines 216-220) Check for Equality of Group Proportion (Endline):
 - Chi-squared test shows significant differences in vaccination rates at endline across groups (p < 0.001).
 
