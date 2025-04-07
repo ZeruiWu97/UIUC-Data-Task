@@ -33,19 +33,27 @@
 **Baseline Survey Data**: Stored at `raw_data/survey_data_baseline.dta`.
 - 5,000 individuals are simulated.
 - Variables include:
-  `id`: Unique identifier
+  `id`: Unique identifier.
+  
   `vac_takeup0`: Baseline vaccination status. Bernoulli variable with p = 0.3.
+  
   `age`: Age. Uniformly distributed from 18 to 80
+  
   `female`: Female dummy. Bernoulli variable with p = 0.5
+  
   `edu`: Education level derived from uniform distribution: (1) 10% Less than High School (2) 30% High School (3) 20% Some College (4) 40% College or higher.
-  `college`: Binary indicator for College+. 
+  
+  `college`: Binary indicator for College+.
+  
 
 **Randomization Data**: Store at `raw_data/randomization_data.dta`.
 - 5,000 individuals are simulated.
+- `id`: Unique identifier.
 - `Treatment`: Treatment assignment is divided evenly into three groups: (1) Reason Ad, (2) Emotions Ad, and (3) Control.
 
 **Endline Survey Data**: Store at `raw_data/survey_data_endline.dta`.
 - A random sample of 4,500 individuals is selected to simulate attrition.
+- `id`: Unique identifier.
 - `vac_takeup1`: Endline vaccination status is generated based on: (1) If vaccinated at baseline: remains vaccinated;  (2) If not, probability of endline vaccination depends on treatment group: Reason: 55% of vaccination, Emotions: 70% of vaccination, and Control: 30% of vaccination.
 
 
