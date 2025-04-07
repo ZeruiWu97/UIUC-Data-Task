@@ -61,6 +61,7 @@
 - (Lines 204–213) One-way ANOVA and Chi-squared tests confirm that baseline characteristics (age, gender, college education, and vaccination status) are well balanced across the three treatment groups.
 
 **Treatment Effects**
+
 (1). (Lines 216-220) Check for Equality of Group Proportion (Endline):
 - Chi-squared test shows significant differences in vaccination rates at endline across groups (p < 0.001).
 
